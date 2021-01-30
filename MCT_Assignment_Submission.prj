@@ -1,0 +1,81 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="542653744" file="D:\MATLAB\DIP(Digital Image Processing)\MCT_Assignment\MCT_Assignment_Submission.prj" location="D:\MATLAB\DIP(Digital Image Processing)\MCT_Assignment" name="MCT_Assignment_Submission" target="target.mlapps" target-name="Package App">
+    <param.appname>MCT_Assignment_Submission</param.appname>
+    <param.authnamewatermark>Siddhartha Jejurkar(2018A3PS0617G)</param.authnamewatermark>
+    <param.email />
+    <param.company />
+    <param.icon />
+    <param.icons />
+    <param.summary />
+    <param.description />
+    <param.screenshot>C:\Users\Siddhartha\AppData\Local\Temp\tp452cf720_d353_4590_b51e_616b2b949031.png</param.screenshot>
+    <param.version>1.0</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>C:\Users\Siddhartha\Desktop\MCT</param.output>
+    <param.guid>8c1a3e5c-e91e-499f-9d86-e1597a1793c2</param.guid>
+    <unset>
+      <param.email />
+      <param.company />
+      <param.icon />
+      <param.icons />
+      <param.summary />
+      <param.description />
+      <param.version />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\MCT_Assignment.mlapp</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\Audio2Bits.m</file>
+      <file>${PROJECT_ROOT}\Bits2Audio.m</file>
+      <file>${PROJECT_ROOT}\Bits2Img.m</file>
+      <file>${PROJECT_ROOT}\Bits2Text.m</file>
+      <file>${PROJECT_ROOT}\CodeBCH.m</file>
+      <file>${PROJECT_ROOT}\CodeHamming.m</file>
+      <file>${PROJECT_ROOT}\DecodeBCH.m</file>
+      <file>${PROJECT_ROOT}\DecodeHamming.m</file>
+      <file>${PROJECT_ROOT}\FSK.m</file>
+      <file>${PROJECT_ROOT}\GlobalVariables.m</file>
+      <file>${PROJECT_ROOT}\Img2Bits.m</file>
+      <file>${PROJECT_ROOT}\input.bin</file>
+      <file>${PROJECT_ROOT}\PSK.m</file>
+      <file>${PROJECT_ROOT}\QAM.m</file>
+      <file>${PROJECT_ROOT}\QAM32.m</file>
+      <file>${PROJECT_ROOT}\RandomBits.m</file>
+      <file>${PROJECT_ROOT}\result.txt</file>
+      <file>${PROJECT_ROOT}\Text2Bits.m</file>
+    </fileset.depfun>
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="C:\Users\Siddhartha\Desktop" name="MCT" optional="false">C:\Users\Siddhartha\Desktop\MCT</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>D:\MATLAB</root>
+      <toolboxes />
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>

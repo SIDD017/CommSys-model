@@ -1,0 +1,1 @@
+global inputBits encodedData;
